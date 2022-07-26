@@ -14,7 +14,7 @@ Shams is an Arabic application that allows you to give voice commands to your ph
 <details>
 <summary>Table of Contents</summary>
 
-  1. [Introduction](#👋-introduction)
+  1. [Introduction](#introduction)
         + [Why](#why)
         + [What is this repository for?](#what-is-this-repository-for)
         + [Features](#features)
@@ -28,7 +28,7 @@ Shams is an Arabic application that allows you to give voice commands to your ph
 </details>
 
 
-## 👋 Introduction
+## Introduction
 
 **Shams** is an **open-source** Arabic personal assistant mobile application.
 
