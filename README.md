@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a ><img width="96" src="./shams.png" ></a><br>
+  <a ><img width="96" src="./images/shams.png" ></a><br>
   Shams Virtual Assistant
 </h1>
 
@@ -9,6 +9,24 @@ Shams is an Arabic application that allows you to give voice commands to your ph
 
 
 <br>
+
+
+<details>
+<summary>Table of Contents</summary>
+
+  1. [Introduction](#👋-introduction)
+        + [Why](#why)
+        + [What is this repository for?](#what-is-this-repository-for)
+        + [Features](#features)
+  2. [System Architecture](#system-architecture)
+  3. [Getting Started](#🚀-getting-started)
+        + [Prerequisites](#prerequisites)
+        + [Installation](#installation)
+  4. [Contributing](#❤️-contributing)
+  5. [Contributors](#👨-contributors)
+
+</details>
+
 
 ## 👋 Introduction
 
@@ -28,17 +46,21 @@ You can also **text Shams** and Shams will also **respond to you**.
 ### What is this repository for?
 
 > This repository contains the stable release of the following:  
-> - Shams Main server 
-> - Named Entity Recognition (NER) server
-> - Intent classification training code
-> - The java application
+> - [Shams Main server](https://github.com/AhmedAbdelGawadFarag/Arabic-Virutal-Assistant-Server)
+> - [Named Entity Recognition (NER) server](https://github.com/AhmedAbdelGawadFarag/ArabicNer)
+> - [Intent classification training code](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
+> - [The android application](https://github.com/AbdelRahmanRefaat/Shams-Virtual-Assistant)
 
-### What can Shams do?
+### Features
 
 > 1. Calendar Management 
 > 2. Email Management
 > 3. Translation
 > 4. Contact Management 
+
+
+### System Architecture
+![Architecture](./images/architecture.png)
 
 
 ## 🚀 Getting Started
@@ -52,7 +74,7 @@ You can also **text Shams** and Shams will also **respond to you**.
 
 2. ##### [Ner server](https://github.com/AhmedAbdelGawadFarag/ArabicNer)
     - [Python 3.6](https://www.python.org/downloads/release/python-360/)
-    - Python Requirement file
+    - Python Requirements file
 
 3. ##### [intent classification](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
     > Kaggle notebook has all the requirements https://www.kaggle.com/ahmedabdelgawad/arabic-intent-classification  
@@ -61,10 +83,10 @@ You can also **text Shams** and Shams will also **respond to you**.
     > all the prerequisites in the Gradle file
 
 ### Installation
-> See the doc of each repo to get more information about the installation
-
-### Docker Installation
-
+> Read the doc of each repo to get more information about the installation
+> 
+> #### Docker Installation
+>
 > - [ ] there will be an official docker image in the future
 
 ## ❤️ Contributing
