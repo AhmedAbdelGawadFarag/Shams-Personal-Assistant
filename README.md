@@ -49,7 +49,7 @@ You can also **text Shams** and Shams will also **respond to you**.
 > - [Shams Main server](https://github.com/AhmedAbdelGawadFarag/Arabic-Virutal-Assistant-Server)
 > - [Named Entity Recognition (NER) server](https://github.com/AhmedAbdelGawadFarag/ArabicNer)
 > - [Intent classification training code](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
-> - [The android application](https://github.com/AbdelRahmanRefaat/Shams-Virtual-Assistant)
+> - [The Android application](https://github.com/AbdelRahmanRefaat/Shams-Virtual-Assistant)
 
 ### Features
 
@@ -76,10 +76,10 @@ You can also **text Shams** and Shams will also **respond to you**.
     - [Python 3.6](https://www.python.org/downloads/release/python-360/)
     - Python Requirements file
 
-3. ##### [intent classification](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
+3. ##### [Intent classification](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
     > Kaggle notebook has all the requirements https://www.kaggle.com/ahmedabdelgawad/arabic-intent-classification  
 
-4. #### [android application](https://github.com/AhmedAbdelGawadFarag/marcello-chat-bot)
+4. #### [Android application](https://github.com/AhmedAbdelGawadFarag/marcello-chat-bot)
     > all the prerequisites in the Gradle file
 
 ### Installation
