@@ -32,7 +32,7 @@ Shams is an Arabic application that allows you to give voice commands to your ph
 
 **Shams** is an **open-source** Arabic personal assistant mobile application.
 
-Shams **do commands** when you **ask him to**.
+Shams **do commands** when you **ask to**.
 
 You can **talk to Shams** in an Egyptian accent and Shams will **respond to you**.
 
