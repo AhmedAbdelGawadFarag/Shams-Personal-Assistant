@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#6E6C6C"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    >
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@color/primary_dark">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/shams"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="شمس"
+            android:textColor="@color/white"
+            android:textAlignment="textEnd"
+            android:textSize="27sp"
+            android:fontFamily="@font/sans_arabic_regular"
+            android:layout_weight="4"/>
+
+    </LinearLayout>
+    <!--<Button
+        android:id="@+id/record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:textColor="@color/white"
+
+        />
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:textColor="@color/white"
+        />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+
+        >
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/send_message_layout"
+            android:backgroundTint="@color/primary_dark"
+            android:background="#FFFFFF"
+            android:padding="5dp"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_chat_screen"
+                app:layoutManager="LinearLayoutManager" />
+
+            <TextView
+                android:id="@+id/no_chats_avilable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:text="no_chats_available"
+                android:textColor="@color/primary_dark"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/send_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/primary_dark"
+            android:gravity="bottom|end">
+
+            <EditText
+                android:id="@+id/edit_text_message"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@color/primary_dark"
+                android:ems="10"
+                android:hint="Type Message to Send"
+                android:inputType="textPersonName"
+                android:paddingStart="20dp"
+                android:textColor="#FFFFFF" />
+
+
+            <ImageButton
+                android:id="@+id/btn_send_message"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/primary_dark"
+                android:src="@drawable/ic_baseline_mic_24"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

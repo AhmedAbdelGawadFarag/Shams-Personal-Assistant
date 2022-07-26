@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/background_received_message"
+        android:backgroundTint="@color/primary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_check_circle_24" />
+
+        <TextView
+            android:id="@+id/addContactTv"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text=" تم اضافة كذا كذا كذا"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:fontFamily="@font/sans_arabic_regular"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_contact_24"
+            android:text="أظهر الأسماء"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/sans_arabic_regular"
+            app:cornerRadius="20dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

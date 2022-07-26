@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:1.9.0-alpha02@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/05c79d97939db0b7e38cfe9cae378d41/transformed/core-1.9.0-alpha02/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/05c79d97939db0b7e38cfe9cae378d41/transformed/core-1.9.0-alpha02/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/05c79d97939db0b7e38cfe9cae378d41/transformed/core-1.9.0-alpha02/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/05c79d97939db0b7e38cfe9cae378d41/transformed/core-1.9.0-alpha02/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.9.0-alpha02/5e16dada853dcc5697cce6de867d33b1cf3d2549/core-1.9.0-alpha02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
