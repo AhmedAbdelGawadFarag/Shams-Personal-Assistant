@@ -107,8 +107,6 @@ If you have an idea for improving Shams, do not hesitate.
           <img src="https://github.com/AhmedEssam14.png" />
           Ahmed Essam
         </a><br>
-      </td>
-
-    </tr>
+      </td></tr>
   </tbody>
 </table>
