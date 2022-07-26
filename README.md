@@ -53,10 +53,10 @@ You can also **text Shams** and Shams will also **respond to you**.
 
 ### Features
 
-> 1. Calendar Management 
-> 2. Email Management
-> 3. Translation
-> 4. Contact Management 
+> - [x] Calendar Management 
+> - [x] Email Management
+> - [x] Translation
+> - [x] Contact Management 
 
 
 ### System Architecture
