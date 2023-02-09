@@ -45,22 +45,24 @@ You can also **text Shams** and Shams will also **respond to you**.
 
 ### What is this repository for?
 
-> This repository contains the stable release of the following:  
-> - [Shams Main server](https://github.com/AhmedAbdelGawadFarag/Arabic-Virutal-Assistant-Server)
-> - [Named Entity Recognition (NER) server](https://github.com/AhmedAbdelGawadFarag/ArabicNer)
-> - [Intent classification training code](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
-> - [The Android application](https://github.com/AbdelRahmanRefaat/Shams-Virtual-Assistant)
+ This repository contains the stable release of the following:  
+- [Shams Main server](https://github.com/AhmedAbdelGawadFarag/Arabic-Virutal-Assistant-Server)
+- [Named Entity Recognition (NER) server](https://github.com/AhmedAbdelGawadFarag/ArabicNer)
+- [Intent classification training code](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
+- [The Android application](https://github.com/AbdelRahmanRefaat/Shams-Virtual-Assistant)
 
 ### Features
 
-> - [x] Calendar Management 
-> - [x] Email Management
-> - [x] Translation
-> - [x] Contact Management 
+- [x] Calendar Management 
+- [x] Email Management
+- [x] Translation
+- [x] Contact Management 
 
 
 ### System Architecture
 ![Architecture](./images/architecture.png)
+
+
 
 
 ## Getting Started
