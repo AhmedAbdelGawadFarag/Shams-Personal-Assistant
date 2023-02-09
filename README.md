@@ -82,16 +82,16 @@ You can also **text Shams** and Shams will also **respond to you**.
     - Python Requirements file
 
 3. ##### [Intent classification](https://github.com/AhmedAbdelGawadFarag/arabic-intent-classification)
-    > Kaggle notebook has all the requirements https://www.kaggle.com/ahmedabdelgawad/arabic-intent-classification  
+     Kaggle notebook has all the requirements https://www.kaggle.com/ahmedabdelgawad/arabic-intent-classification  
 
 4. #### [Android application](https://github.com/AhmedAbdelGawadFarag/marcello-chat-bot)
-    > all the prerequisites in the Gradle file
+     All the prerequisites in the Gradle file
 
 ### Installation
 > Read the doc of each repo to get more information about the installation
->
-> #### Docker Installation
-> - [ ] there will be an official docker image in the future
+
+### Docker Image
+- [ ] There will be an official docker image in the future
 
 ## Contributing
 
