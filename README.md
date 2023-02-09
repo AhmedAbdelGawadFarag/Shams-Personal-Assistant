@@ -14,16 +14,17 @@ Shams is an Arabic application that allows you to give voice commands to your ph
 <details>
 <summary>Table of Contents</summary>
 
-  1. [Introduction](#introduction)
-        + [Why](#why)
-        + [What is this repository for?](#what-is-this-repository-for)
-        + [Features](#features)
-  2. [System Architecture](#system-architecture)
-  3. [Getting Started](#getting-started)
-        + [Prerequisites](#prerequisites)
-        + [Installation](#installation)
-  4. [Contributing](#contributing)
-  5. [Contributors](#contributors)
+- [Introduction](#introduction)
+  - [Why?](#why)
+  - [What is this repository for?](#what-is-this-repository-for)
+  - [Features](#features)
+  - [System Architecture](#system-architecture)
+  - [Mobile Architecture](#mobile-architecture)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
 
 </details>
 
@@ -60,9 +61,11 @@ You can also **text Shams** and Shams will also **respond to you**.
 
 
 ### System Architecture
-![Architecture](./images/architecture.png)
+![Architecture](./images/system_architecture.png)
 
 
+### Mobile Architecture
+![Architecture](./images/mobile_architecture.png)
 
 
 ## Getting Started
